@@ -1,0 +1,62 @@
+      @extends('layouts.admin')
+
+      @section('content')
+         <!-- Begin Page Content -->
+         <div class="container-fluid">
+
+            <!-- Page Heading -->
+            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+               <h1 class="h3 mb-0 text-gray-800">Edit Produk</h1>
+               <a href="{{ route('produk.index') }}" class="btn btn-sm btn-primary shadow-sm">
+                  Back</a>
+            </div>
+            @if ($errors->any())
+               <div class="alert alert-danger">
+                  <ul>
+                     @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                     @endforeach
+                  </ul>
+               </div>
+            @endif
+            <div class="card shadow">
+               <div class="card-body">
+                  <form action="{{ route('produk.update', $item->id) }}" method="post" enctype="multipart/form-data">
+                     @method('PUT')
+                     @csrf
+                     <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <input type="text" class="form-control" name="nama" placeholder="Nama"
+                           value="{{ $item->nama }}">
+                     </div>
+                     <div class="form-group">
+                        <label for="deskripsi">Deskripsi</label>
+                        <textarea name="deskripsi" rows="5" class="d-block w-100 form-control" value="{{ $item->deskripsi }}"></textarea>
+                     </div>
+                     <div class="form-group">
+                        <label for="harga">Harga</label>
+                        <input type="number" class="form-control" name="harga" placeholder="harga"
+                           value="{{ $item->harga }}">
+                     </div>
+                     <div class="form-group">
+                        <label for="url">Url</label>
+                        <input type="text" class="form-control" name="url" placeholder="url"
+                           value="{{ $item->url }}">
+                     </div>
+                     <div class="form-group">
+                        <label for="image">Gambar</label>
+                        <div class="custom-file">
+                           <input type="file" class="custom-file-input" name="image"
+                              aria-describedby="inputGroupFileAddon01">
+                           <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                        </div>
+                     </div>
+                     <button type="submit" class="btn btn-primary btn-block">
+                        Update
+                     </button>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <!-- /.container-fluid -->
+      @endsection
