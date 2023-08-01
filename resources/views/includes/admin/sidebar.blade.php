@@ -11,24 +11,22 @@
 
          <!-- Nav Item - Dashboard -->
          <li class="nav-item {{ request()->is('admin/wisata') ? 'active' : '' }}">
-            <a class="nav-link" href="{{ route('wisata.index') }}">
+            <a class="nav-link " href="{{ route('wisata.index') }}">
                <i class="fa-solid fa-location-dot fa-2xl"></i>
                <span>Wisata</span></a>
          </li>
-         <li class="nav-item ">
-            <a class="nav-link {{ request()->is('admin/makanan') ? 'active' : '' }}"
-               href="{{ route('makanan.index') }}">
+         <li class="nav-item {{ request()->is('admin/makanan') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('makanan.index') }}">
                <i class="fa-solid fa-bowl-food fa-2xl"></i>
                <span>Makanan</span></a>
          </li>
-         <li class="nav-item ">
-            <a class="nav-link {{ request()->is('admin/produk') ? 'active' : '' }}" href="{{ route('produk.index') }}">
+         <li class="nav-item {{ request()->is('admin/produk') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('produk.index') }}">
                <i class="fa-solid fa-cart-shopping fa-2xl"></i>
                <span>Produk Lokal</span></a>
          </li>
-         <li class="nav-item ">
-            <a class="nav-link {{ request()->is('admin/pejabat') ? 'active' : '' }}"
-               href="{{ route('pejabat.index') }}">
+         <li class="nav-item {{ request()->is('admin/pejabat') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('pejabat.index') }}">
                <i class="fa-solid fa-person fa-2xl"></i>
                <span>Perangkat Desa</span>
             </a>

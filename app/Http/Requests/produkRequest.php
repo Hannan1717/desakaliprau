@@ -24,6 +24,7 @@ class produkRequest extends FormRequest
         return [
             'nama' => 'required|max:255',
             'deskripsi' => 'required',
+            'seller' => 'required|max:255',
             'harga' => 'required|integer',
             'url' => 'required|max:255',
             'image' => 'required|image'

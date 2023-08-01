@@ -39,16 +39,7 @@
       <div class="container">
          <h2 class="text-center mt-4 mb-2 title">Pengurus Desa 2023</h2>
 
-         <div class="row mt-5">
-            <div class="col-md-6">
-               <img src="{{ url('frontend/images/joko.jpg') }}" style="width: 800px; max-height: 500px;"
-                  class="img-fluid rounded" alt="Gambar">
-            </div>
-            <div class="col-md-6">
-               <p style="color: rgb(35, 35, 35);font-size:20px">khkhj</p>
-               <!-- HTML !-->
-            </div>
-         </div>
+         
       </div>
 
    </section>

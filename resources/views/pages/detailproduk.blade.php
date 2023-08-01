@@ -38,12 +38,13 @@
    <section class="section-makanan">
       <div class="container">
          <div class="row mt-5">
-            <div class="col-md-6">
-               <img src="{{ Storage::url($item->image) }}" style="width: 800px; max-height: 500px;"
-                  class="img-fluid rounded" alt="Gambar">
+            <div class="col-md-12 col-lg-4">
+               <img src="{{ Storage::url($item->image) }}" style="width: 800px;" class="img-fluid rounded"
+                  alt="Gambar">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12 col-lg-8">
                <h2 style="font-weight: 700">{{ $item->nama }}</h2>
+               <p style="margin-top: -10px">{{ $item->seller }}</p>
                <p style="color: rgb(35, 35, 35);font-size:20px">Rp. {{ number_format($item->harga) }} / pcs</p>
                <!-- HTML !-->
                <a href="{{ $item->url }}" type="button" class="btn btn-outline-primary">Order Via Shopee</a>

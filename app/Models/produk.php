@@ -13,7 +13,7 @@ class produk extends Model
     use SoftDeletes;
 
     protected $fillable = [
-        'nama', 'deskripsi', 'harga', 'url', 'image', 'slug'
+        'nama', 'deskripsi', 'seller', 'harga', 'url', 'image', 'slug'
     ];
 
     protected $hidden = [];
