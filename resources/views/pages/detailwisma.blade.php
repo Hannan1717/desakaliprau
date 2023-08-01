@@ -15,7 +15,7 @@
    {{-- Navbar  start --}}
    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
       <div class="container">
-         <a class="navbar-brand" href="#">
+         <a class="navbar-brand" href="{{ route('home') }}">
             <img src="{{ url('frontend/images/kaliprau.png') }}" height="30">
          </a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
