@@ -53,7 +53,7 @@
          <div class="row justify-content-center mt-5">
             <div class="col-lg-12 col-md-6">
                <h3>Deskripsi Produk</h3>
-               <p>{{ $item->deskripsi }}</p>
+               <p style="text-align: justify">{{ $item->deskripsi }}</p>
             </div>
          </div>
       </div>

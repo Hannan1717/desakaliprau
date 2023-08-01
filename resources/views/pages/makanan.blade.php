@@ -52,7 +52,8 @@
                         <div class="col-md-8">
                            <div class="card-body d-flex flex-column">
                               <h5 class="card-title">{{ $item->nama }}</h5>
-                              <p class="card-text">{{ Str::limit($item->deskripsi, 200) }}</p>
+                              <p class="card-text" style="text-align: justify">{{ Str::limit($item->deskripsi, 200) }}
+                              </p>
                               <a type="button" href="{{ route('detailmakanan', $item->slug) }}"
                                  class="btn btn-outline-primary">Jelajahi</a>
                            </div>

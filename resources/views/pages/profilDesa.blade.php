@@ -46,7 +46,8 @@
          </div>
          <div class="row justify-content-center mt-5">
             <div class="col-lg-10 col-md-6">
-               <p>Desa Kaliprau dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+               <p style="text-align: justify">Desa Kaliprau dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore
                   et dolore magna aliqua. Varius quam quisque id diam vel quam elementum. Integer enim neque volutpat ac
                   tincidunt. Nunc sed augue lacus viverra vitae congue eu consequat. Scelerisque purus semper eget duis
                   at tellus. Arcu non odio euismod lacinia at quis risus. Sapien pellentesque habitant morbi tristique
@@ -120,7 +121,8 @@
                   </div>
                </div>
                <div class="col-md-9">
-                  <p style="color: rgb(35, 35, 35);font-size:20px">Lorem ipsum dolor sit amet, consectetur adipiscing
+                  <p style="color: rgb(35, 35, 35);font-size:20px;text-align:justify">Lorem ipsum dolor sit amet,
+                     consectetur adipiscing
                      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium quam vulputate
                      dignissim suspendisse in est ante. In pellentesque massa placerat duis ultricies lacus. Enim nunc
                      faucibus a pellentesque. Risus nullam eget felis eget nunc. Et leo duis ut diam quam nulla. Avinar
