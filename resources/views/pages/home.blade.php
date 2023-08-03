@@ -34,7 +34,7 @@
    </nav>
    {{-- Navbar End --}}
 
-   {{-- carousel --}}
+   {{-- header --}}
    <header>
       <div class="container">
          <h1 style="font-weight: 700" class="text-header">
