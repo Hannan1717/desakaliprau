@@ -31,7 +31,7 @@
                      </div>
                      <div class="form-group">
                         <label for="deskripsi">Deskripsi</label>
-                        <textarea name="deskripsi" rows="5" class="d-block w-100 form-control" value="{{ $item->deskripsi }}"></textarea>
+                        <textarea name="deskripsi" rows="5" class="d-block w-100 form-control">{{ $item->deskripsi }}</textarea>
                      </div>
                      <div class="form-group">
                         <label for="image">Gambar</label>

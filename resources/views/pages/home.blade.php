@@ -28,6 +28,8 @@
                <a class="nav-link" href="{{ route('wisata') }}" style="color: white">Wisata</a>
                <a class="nav-link" href="{{ route('makanan') }}" style="color: white">Makanan</a>
                <a class="nav-link" href="{{ route('produk') }}" style="color: white">Produk</a>
+               <a class="nav-link" href="{{ route('admin') }} "style="color: white">Admin</a>
+
             </div>
          </div>
       </div>
@@ -105,10 +107,13 @@
                <p style="text-align: justify;">
                   <b>Kaliprau</b> terletak di Kecamatan Jatibarang, Kabupaten Brebes, Jawa
                   Tengah. Menurut cerita yang
-                  diceritakan oleh tokoh desa yang tua, Desa Kaliprau diambil dari dua nama, yaitu Dukuh Lawa dan
+                  diceritakan oleh tokoh desa yang tua, Desa Kaliprau diambil dari dua nama, yaitu Dukuh Lawa
+                  dan
                   Dukuh Kedawung. Dukuh Lawa terletak di sebelah utara sebuah goa yang banyak dihuni kelelawar,
-                  sementara Dukuh Kedawung terletak di sebelah selatan goa tersebut. Pada masa lalu, kedua dukuh
-                  tersebut digabung menjadi satu desa oleh pemerintah daerah tingkat II Kabupaten Brebes dan diberi
+                  sementara Dukuh Kedawung terletak di sebelah selatan goa tersebut. Pada masa lalu, kedua
+                  dukuh
+                  tersebut digabung menjadi satu desa oleh pemerintah daerah tingkat II Kabupaten Brebes dan
+                  diberi
                   nama Desa Kaliprau. Nama Kaliprau sendiri merupakan singkatan dari Kedawung dan Lawa.
                </p>
                <a href="{{ route('profileDesa') }}" class="gradient-button mt-3 mb-5" role="button">Detail</a>
@@ -130,9 +135,9 @@
          <div class="text-center">
             <h2 class="title mb-5">Galeri</h2>
          </div>
-         <div class="row">
+         <div class="row justify-content-center">
             <div class="col-md-6 col-lg-3 mb-4">
-               <div class="image-container">
+               <div class="mx-auto image-container ">
                   <img src="frontend/images/desa1.jpg" class="image">
                   <div class="text-overlay">
                      <h5>Uluwatu</h5>
@@ -141,7 +146,7 @@
                </div>
             </div>
             <div class="col-md-6 col-lg-3 mb-4">
-               <div class="image-container">
+               <div class="mx-auto image-container ">
                   <img src="frontend/images/desa1.jpg" class="image">
                   <div class="text-overlay">
                      <h5>Banana Boat</h5>
@@ -150,7 +155,7 @@
                </div>
             </div>
             <div class="col-md-6 col-lg-3 mb-4">
-               <div class="image-container">
+               <div class="mx-auto image-container ">
                   <img src="frontend/images/desa1.jpg" class="image">
                   <div class="text-overlay">
                      <h5>Guci</h5>
@@ -159,7 +164,7 @@
                </div>
             </div>
             <div class="col-md-6 col-lg-3 mb-4">
-               <div class="image-container">
+               <div class="mx-auto image-container ">
                   <img src="frontend/images/desa1.jpg" class="image">
                   <div class="text-overlay">
                      <h5>Curug Lawe</h5>
@@ -175,35 +180,38 @@
       <div class="container pt-5">
          <h2 class="text-center mb-2 title">Jelajahi Sekarang</h2>
          <p class="text-center">Temukan hal menarik dan mempesona lainnya di desa kaliprau</p>
-         <div class="row mt-5 ">
-            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-star">
-               <a href="{{ route('wisata') }}" class="card pt-2 justify-content-center ml-5 "
+         <div class="row mt-5 justify-content-center">
+            <div class=" col-lg-4 col-md-6 mb-4 d-flex">
+               <a href="{{ route('wisata') }}" class="mx-auto card pt-2 justify-content-center ml-5 "
                   style="width: 250px; height: 250px;">
                   <div class="card-body d-flex flex-column justify-content-center align-items-center">
                      <img class="img-menu mb-5" src="frontend/images/island.png" alt="">
                      <p class="text-menu mb-0"
-                        style="position: absolute; bottom: 20px; left: 0; right: 0; text-align: center;">Wisata</p>
+                        style="position: absolute; bottom: 20px; left: 0; right: 0; text-align: center;">
+                        Wisata</p>
                   </div>
                </a>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-center">
-               <a href="{{ route('makanan') }}" class="card pt-2 justify-content-center"
+            <div class=" col-lg-4 col-md-6 mb-4 d-flex ">
+               <a href="{{ route('makanan') }}" class="mx-auto card pt-2 justify-content-center"
                   style="width: 250px; height: 250px;">
                   <div class="card-body d-flex flex-column justify-content-center align-items-center">
                      <img class="img-menu mb-5" src="frontend/images/makananan.png" alt="">
                      <p class="text-menu mb-0"
-                        style="position: absolute; bottom: 20px; left: 0; right: 0; text-align: center;">Tempat Makan
+                        style="position: absolute; bottom: 20px; left: 0; right: 0; text-align: center;">
+                        Tempat Makan
                      </p>
                   </div>
                </a>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4  d-flex justify-content-end">
-               <a href="{{ route('produk') }}" class="card pt-2 justify-content-center mr-5"
+            <div class=" col-lg-4 col-md-6 mb-4 ">
+               <a href="{{ route('produk') }}" class="mx-auto card pt-2 justify-content-end mr-5"
                   style="width: 250px; height: 250px;">
                   <div class="card-body d-flex flex-column justify-content-center align-items-center">
                      <img class="img-menu mb-5" src="frontend/images/cart.png" alt="">
                      <p class="text-menu mb-0"
-                        style="position: absolute; bottom: 20px; left: 0; right: 0; text-align: center;">Produk Lokal
+                        style="position: absolute; bottom: 20px; left: 0; right: 0; text-align: center;">
+                        Produk Lokal
                      </p>
                   </div>
                </a>
@@ -215,7 +223,8 @@
    <footer class="section-footer mb-4 border-top">
       <div class="container-fluid">
          <div class="row border-top justify-content-center align-items-center pt-4">
-            <div class="col-auto text-gray-500 font-weight-light">2023 Copyright KKN TIM II UNDIP 2023 • All rights
+            <div class="col-auto text-gray-500 font-weight-light">2023 Copyright KKN TIM II UNDIP 2023 • All
+               rights
                reserved • Made in
                Pemalang</div>
          </div>

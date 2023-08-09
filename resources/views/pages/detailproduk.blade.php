@@ -28,6 +28,8 @@
                <a class="nav-link" href="{{ route('wisata') }}">Wisata</a>
                <a class="nav-link" href="{{ route('makanan') }}">Makanan</a>
                <a class="nav-link" href="{{ route('produk') }}">Produk</a>
+               <a class="nav-link" href="{{ route('admin') }}">Admin</a>
+
             </div>
          </div>
       </div>

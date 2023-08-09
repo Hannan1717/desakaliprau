@@ -28,6 +28,8 @@
                <a class="nav-link " href="{{ route('wisata') }}">Wisata</a>
                <a class="nav-link " href="{{ route('makanan') }}">Makanan</a>
                <a class="nav-link active" href="{{ route('produk') }}">Produk</a>
+               <a class="nav-link" href="{{ route('admin') }}">Admin</a>
+
             </div>
          </div>
       </div>
@@ -41,8 +43,8 @@
          <p class="text-center mb-5">Temukan Tempat menarik dan mempesona di desa kaliprau</p>
          <div class="row justify-content-center flex">
             @foreach ($items as $item)
-               <div class="col-lg-3 col-md-4">
-                  <div class="card p-0 " style="width: 18rem;height:100%">
+               <div class="col-lg-3 col-md-4 mb-3">
+                  <div class="mx-auto card p-0" style="width: 18rem;height:100%">
                      <img src="{{ Storage::url($item->image) }}" style="height: 200px ;object-fit:cover"
                         class="card-img-top" alt="...">
                      <div class="card-body">

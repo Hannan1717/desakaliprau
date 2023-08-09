@@ -28,6 +28,8 @@
                <a class="nav-link" href="{{ route('wisata') }}">Wisata</a>
                <a class="nav-link active" href="{{ route('makanan') }}">Makanan</a>
                <a class="nav-link" href="{{ route('produk') }}">Produk</a>
+               <a class="nav-link" href="{{ route('admin') }}">Admin</a>
+
             </div>
          </div>
       </div>
@@ -46,7 +48,7 @@
                      <div class="row g-0">
                         <div class="col-md-4">
                            <img src="{{ Storage::url($item->image) }}"
-                              style="max-height: 220px ;width:230px;object-fit:cover"
+                              style="max-height: 220px ;width:700px;object-fit:cover"
                               class="img-fluid rounded-start contain" alt="...">
                         </div>
                         <div class="col-md-8">

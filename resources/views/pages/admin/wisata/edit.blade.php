@@ -31,12 +31,12 @@
                      </div>
                      <div class="form-group">
                         <label for="deskripsi">Deskripsi</label>
-                        <textarea name="deskripsi" rows="5" class="d-block w-100 form-control" value="{{ $item->deskripsi }}"></textarea>
+                        <textarea name="deskripsi" rows="5" class="d-block w-100 form-control">{{ $item->deskripsi }}</textarea>
                      </div>
                      <div class="form-group">
                         <label for="image">Gambar</label>
                         <div class="custom-file">
-                           <input type="file" class="custom-file-input" name="image"
+                           <input type="file" class="custom-file-input" value="{{ $item->image }}" name="image"
                               aria-describedby="inputGroupFileAddon01">
                            <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
                         </div>

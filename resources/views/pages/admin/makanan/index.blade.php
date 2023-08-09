@@ -18,7 +18,7 @@
                      <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                         <thead>
                            <tr>
-                              <th>ID</th>
+                              <th>No</th>
                               <th>Nama</th>
                               <th>Deskripsi</th>
                               <th>Gambar</th>
@@ -28,7 +28,8 @@
                         <tbody>
                            @forelse($items as $item)
                               <tr>
-                                 <td>{{ $item->id }}</td>
+                                 <td>{{ $loop->iteration }}</td>
+
                                  <td>{{ $item->nama }}</td>
                                  <td>{{ $item->deskripsi }}</td>
                                  <td>

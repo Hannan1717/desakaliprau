@@ -39,6 +39,11 @@
                               value="{{ old('harga') }}">
                         </div>
                         <div class="form-group">
+                           <label for="seller">Seller</label>
+                           <input type="text" class="form-control" name="seller" placeholder="Seller"
+                              value="{{ old('seller') }}">
+                        </div>
+                        <div class="form-group">
                            <label for="url">Url</label>
                            <input type="text" class="form-control" name="url" placeholder="Url"
                               value="{{ old('url') }}">
