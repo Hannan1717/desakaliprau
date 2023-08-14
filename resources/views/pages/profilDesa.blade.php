@@ -48,35 +48,17 @@
          </div>
          <div class="row justify-content-center mt-5">
             <div class="col-lg-10 col-md-6">
-               <p style="text-align: justify">Desa Kaliprau dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                  tempor incididunt ut labore
-                  et dolore magna aliqua. Varius quam quisque id diam vel quam elementum. Integer enim neque volutpat ac
-                  tincidunt. Nunc sed augue lacus viverra vitae congue eu consequat. Scelerisque purus semper eget duis
-                  at tellus. Arcu non odio euismod lacinia at quis risus. Sapien pellentesque habitant morbi tristique
-                  senectus et. Tortor dignissim convallis aenean et tortor at risus viverra. Maecenas pharetra convallis
-                  posuere morbi leo urna molestie at elementum. Volutpat est velit egestas dui. A iaculis at erat
-                  pellentesque. Risus sed vulputate odio ut enim blandit volutpat maecenas. Tempus quam pellentesque nec
-                  nam. Volutpat ac tincidunt vitae semper. Gravida in fermentum et sollicitudin. Magna fermentum iaculis
-                  eu non diam phasellus vestibulum lorem. Aliquet lectus proin nibh nisl condimentum id venenatis.
-                  Eleifend mi in nulla posuere. Suspendisse faucibus interdum posuere lorem ipsum dolor. Sagittis purus
-                  sit amet volutpat consequat.
-                  <br>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Vestibulum sed arcu non odio euismod lacinia. Sed vulputate mi sit amet mauris
-                  commodo. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Sit amet
-                  dictum sit amet justo donec enim diam vulputate. Amet consectetur adipiscing elit ut aliquam purus.
-                  Tristique senectus et netus et malesuada fames ac. Fames ac turpis egestas integer eget aliquet nibh
-                  praesent. Rutrum quisque non tellus orci ac auctor augue mauris augue. Viverra accumsan in nisl nisi
-                  scelerisque. Dapibus ultrices in iaculis nunc sed augue lacus. Nunc sed id semper risus in hendrerit.
-                  Tristique sollicitudin nibh sit amet commodo nulla. Tellus molestie nunc non blandit. Commodo nulla
-                  facilisi nullam vehicula ipsum a arcu. Nec dui nunc mattis enim ut tellus elementum. Tempor nec
-                  feugiat nisl pretium. Id semper risus in hendrerit. Feugiat vivamus at augue eget arcu dictum.
-                  Faucibus purus in massa tempor. Ultricies integer quis auctor elit. Lobortis elementum nibh tellus
-                  molestie nunc non. Convallis tellus id interdum velit laoreet id donec. Magnis dis parturient montes
-                  nascetur ridiculus mus mauris vitae. Bibendum arcu vitae elementum curabitur. Sit amet consectetur
-                  adipiscing elit ut aliquam. Enim eu turpis egestas pretium aenean pharetra. Fames ac turpis egestas
-                  maecenas pharetra convallis posuere. Sed adipiscing diam donec adipiscing tristique risus nec. Proin
-                  sed libero enim sed faucibus.
+               <p style="text-align: justify">Desa Kaliprau merupakan desa yang secara administratif termasuk dalam
+                  wilayah Kecamatan Ulujami Kabupaten Pemalang. Penamaan/nomenklatur Desa Kaliprau berdasarkan adat
+                  istiadat secara turun-temurun sejak jaman Kerajaan Mataram, dan pada saat penjajahan Belanda nama
+                  tersebut tetap dilestarikan sampai dengan sekarang. Bersumber dari salah satu warga (sesepuh desa)
+                  bahwa kono nama Kaliprau adalah sebuah sebutan (akronim) dari Kali yang artinya : sungai yang sangat
+                  lebar. Memang, sejarah nama Desa Kaliprau ini masih perlu di telusuri kebenarannya, namun dari
+                  beberapa cerita yang ada, asal-usul nama Desa Kaliprau inilah yang paling memungkinkan. Adapun prau
+                  pada nama Kaliprau adalah karena Desa Kaliprau kedatangan “prau kolodito” di Sungai Sembilangan
+                  tersebut. Secara formal, nama Desa Kaliprau memang belum pernah dibakukan dalam bentuk peraturan
+                  perundang-undangan (Peraturan Daerah) namun demikian nama desa kalipraussssss telah diakui secara
+                  administratif menjadi salah satu dari 222 desa/ kelurahan yang ada di Kabupaten Pemalang
                </p>
             </div>
          </div>

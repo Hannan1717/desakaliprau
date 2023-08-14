@@ -50,53 +50,6 @@
       </div>
 
    </header>
-   {{-- <section id="carousel">
-
-      <div id="carouselExampleCaptions" class="carousel slide">
-         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-               aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-               aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-               aria-label="Slide 3"></button>
-         </div>
-         <div class="carousel-inner">
-            <div class="carousel-item active">
-               <img src="frontend/images/desa4.jpg" class="d-block w-100" alt="...">
-               <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-               </div>
-            </div>
-            <div class="carousel-item">
-               <img src="frontend/images/desa2.jpg" class="d-block w-100" alt="...">
-               <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-               </div>
-            </div>
-            <div class="carousel-item">
-               <img src="frontend/images/desa3.jpg" class="d-block w-100" alt="...">
-               <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-               </div>
-            </div>
-         </div>
-         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-         </button>
-         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-         </button>
-      </div>
-   </section> --}}
-   {{-- carousel End --}}
 
    {{-- section about --}}
    <section class="section-about" id="about">
@@ -105,16 +58,11 @@
          <div class="row justify-content-around" style="margin-top: 80px">
             <div class="col-lg-5 col-md-12">
                <p style="text-align: justify;">
-                  <b>Kaliprau</b> terletak di Kecamatan Jatibarang, Kabupaten Brebes, Jawa
-                  Tengah. Menurut cerita yang
-                  diceritakan oleh tokoh desa yang tua, Desa Kaliprau diambil dari dua nama, yaitu Dukuh Lawa
-                  dan
-                  Dukuh Kedawung. Dukuh Lawa terletak di sebelah utara sebuah goa yang banyak dihuni kelelawar,
-                  sementara Dukuh Kedawung terletak di sebelah selatan goa tersebut. Pada masa lalu, kedua
-                  dukuh
-                  tersebut digabung menjadi satu desa oleh pemerintah daerah tingkat II Kabupaten Brebes dan
-                  diberi
-                  nama Desa Kaliprau. Nama Kaliprau sendiri merupakan singkatan dari Kedawung dan Lawa.
+                  <b>Kaliprau</b> terletak di Kecamatan Ulujami, Kabupaten Pemalang, Jawa Tengah. Menurut cerita yang
+                  Pekerjaan utama penduduk Desa Kaliprau adalah bertani. Hasil pertanian yang utama adalah padi dan
+                  melati. Akhir-akhir ini banyak penduduk Desa Kaliprau yang alih profesi menjadi pengusaha konveksi.
+                  Alih profesi ini didorong oleh suksesnya para pengusaha konveksi di desa tetangga terutama Desa
+                  Rowosari dan Desa Samong.
                </p>
                <a href="{{ route('profileDesa') }}" class="gradient-button mt-3 mb-5" role="button">Detail</a>
                {{-- <a href="#about" class="about-btn">Batas Wilayah <i class="bx bx-chevron-right"></i></a> --}}
@@ -137,40 +85,41 @@
          </div>
          <div class="row justify-content-center">
             <div class="col-md-6 col-lg-3 mb-4">
-               <div class="mx-auto image-container ">
-                  <img src="frontend/images/desa1.jpg" class="image">
+               <div class="mx-auto image-container">
+                  <img src="frontend/images/galeri/pantai_kaliprau.jpg" class="image">
                   <div class="text-overlay">
-                     <h5>Uluwatu</h5>
-                     <p>Bali</p>
+                     <h5>Pantai Indah Kaliprau</h5>
+                     <p>Utara Kaliprau</p>
                   </div>
                </div>
             </div>
             <div class="col-md-6 col-lg-3 mb-4">
-               <div class="mx-auto image-container ">
-                  <img src="frontend/images/desa1.jpg" class="image">
+               <div class="mx-auto image-container">
+                  <img src="frontend/images/galeri/sawah.jpeg" class="image">
                   <div class="text-overlay">
-                     <h5>Banana Boat</h5>
-                     <p>Kaliprau</p>
+                     <h5>Lahan Padi</h5>
+                     <p>Sekitar Kaliprau</p>
                   </div>
                </div>
             </div>
             <div class="col-md-6 col-lg-3 mb-4">
-               <div class="mx-auto image-container ">
-                  <img src="frontend/images/desa1.jpg" class="image">
+               <div class="mx-auto image-container">
+                  <img src="frontend/images/galeri/pantai.jpeg" class="image">
                   <div class="text-overlay">
-                     <h5>Guci</h5>
-                     <p>Tegal</p>
+                     <h5>Pantai Kaliprau</h5>
+                     <p>Utara Kaliprau</p>
                   </div>
                </div>
             </div>
             <div class="col-md-6 col-lg-3 mb-4">
-               <div class="mx-auto image-container ">
-                  <img src="frontend/images/desa1.jpg" class="image">
+               <div class="mx-auto image-container">
+                  <img src="frontend/images/galeri/pasar_malam.jpg" class="image">
                   <div class="text-overlay">
-                     <h5>Curug Lawe</h5>
-                     <p>Ungaran</p>
+                     <h5>Pasar Malam</h5>
+                     <p>Gapura</p>
                   </div>
                </div>
+
             </div>
          </div>
       </div>
